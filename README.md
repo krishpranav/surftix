@@ -32,7 +32,7 @@ $ ./target/debug/surftix
 # Contributing:
 ## Guide:
 - surftix is an open-source projects and contributions are always welcomed!
-- look at the [CONTRIBUTING.md]() file for more guide regarding the contributions.
+- look at the [CONTRIBUTING.md](https://github.com/krishpranav/surftix/blob/master/CONTRIBUTING.md) file for more guide regarding the contributions.
 
 # License:
 - surftix is licensed under MIT-License
