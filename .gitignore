@@ -1,0 +1,10 @@
+# rust build folders & lock files
+/target
+/Cargo.lock
+
+# system cache
+.DS_Store
+
+# ide cache
+.idea/
+.vscode/
