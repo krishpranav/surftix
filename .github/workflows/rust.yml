@@ -10,11 +10,22 @@ env:
   CARGO_TERM_COLOR: always
 
 jobs:
-  build:
+  build-linux:
 
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
+    - name: Build
+      run: cargo build --verbose
+
+  build-macos:
+
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Install DEPS
+      run: brew install rust rustfmt
     - name: Build
       run: cargo build --verbose
