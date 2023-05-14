@@ -28,7 +28,7 @@ $ redis-server --port 8082 & ./target/release/surftix
 ```
 
 ## API:
-- check out the [API.md]() for more details on how the backend works for this engine.
+- check out the [API.md](https://github.com/krishpranav/surftix/blob/master/docs/API.md) for more details on how the backend works for this engine.
 
 ## Troubleshooting:
 - most of the times when you try running the builded binary it throws an error which shows you to run the project with ```RUST_BACKTRACE=1```, to avoid that try doing ```cargo run```
