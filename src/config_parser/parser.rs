@@ -24,7 +24,7 @@ impl Config {
             let globals = context.globals();
 
             context
-                .load(&fs::read_to_string("./websurfx/config.lua")?)
+                .load(&fs::read_to_string("./surftix/config.lua")?)
                 .exec()?;
 
             Ok(Config {
