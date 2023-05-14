@@ -17,7 +17,7 @@
 - 4GiB+
 - 10GiB Interal Storage+
 - latest [rust](https://www.rust-lang.org/tools/install) version
-- redis-server[NOTE: for backend purpose alone]
+- redis-server
 
 ## Building:
 ```
