@@ -23,9 +23,7 @@ impl Config {
         lua.context(|context| {
             let globals = context.globals();
 
-            context
-                .load(&fs::read_to_string("./surftix/config.lua")?)
-                .exec()?;
+            context.load(&fs::read_to_string("./config.lua")?).exec()?;
 
             Ok(Config {
                 port: globals.get::<_, u16>("port")?,
