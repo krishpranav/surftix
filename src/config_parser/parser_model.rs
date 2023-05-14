@@ -11,4 +11,8 @@ pub struct Style {
     pub colorscheme: String,
 }
 
-impl Style {}
+impl Style {
+    pub fn new(theme: String, colorscheme: String) -> Self {
+        Style { theme, colorscheme }
+    }
+}
